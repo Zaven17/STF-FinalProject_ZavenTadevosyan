@@ -22,10 +22,6 @@ public class HomePage {
     public SearchPage SearchBtn(){
         return new SearchPage(driver);
     }
-    public CartPage clicCartPage(){
-        clickXpath("//*[@id=\"header\"]/div[3]/div/div/div[3]/div/a");
-        return new CartPage(driver);
-    }
 
 
     private void clickXpath(String xpath){

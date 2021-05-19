@@ -11,6 +11,7 @@ public class SignInPage {
     private By createAnAccountbtn = By.xpath("//*[@id=\"SubmitCreate\"]/span");
     private By emailSignUpField = By.xpath("//*[@id=\"email_create\"]");
 
+
     public SignInPage(WebDriver driver){
         this.driver = driver;
     }
@@ -44,6 +45,9 @@ public class SignInPage {
         return new SignedInPage(driver);
     }
 
+    public SearchPage searchPageInstance(){
+        return new SearchPage(driver);
+    }
     public void signIn(){
         setSignInField("ztadevos@gmail.com");
         setPassword("1122334455");

@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="STFHW3.3_3.4_ZavenTadevosyan" />
+        <module name="STF_Final_Project_ZavenTadevosyan" />
       </profile>
     </annotationProcessing>
   </component>

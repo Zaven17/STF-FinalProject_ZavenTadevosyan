@@ -14,6 +14,10 @@ public class HomePage {
         clickXpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a");
         return new SignInPage(driver);
     }
+    public ContactUsPage clickContactUs(){
+        clickXpath("//*[@id=\"contact-link\"]/a");
+        return new ContactUsPage(driver);
+    }
 
     public SearchPage SearchBtn(){
         return new SearchPage(driver);
